@@ -13,7 +13,8 @@ def repo_file_as_string(file_path: str) -> str:
         return repo_file.read()
 
 
-setup(name="srelogging",
+setup(install_requires=["pyyaml"],
+      name="srelogging",
       version="#{TAG_NAME}#",
       description="Common logging functions for SRE python scripts.",
       long_description=repo_file_as_string("README.md"),
