@@ -1,0 +1,18 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+yapf = "*"
+pylint = "*"
+pytest = "*"
+pytest-cov = "*"
+pytest-azurepipelines = "*"
+
+[packages]
+pyyaml = "*"
+srelogging = {editable = true,path = "."}
+
+[requires]
+python_version = "3.7"
