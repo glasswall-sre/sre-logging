@@ -1,18 +1,22 @@
-# SRE Logging
+
 
 <div align="center" style="text-align:center">
   
+# SRE Logging
+  
 Common logging setup package for SRE python programs.
+
+If you have a Python
+program that's gonna be anywhere near production, or is in any way
+'mission critical', it should use this package so that it can plug into
+our DataDog log analysis very easily.
 
 <img align="center" src="https://img.shields.io/github/workflow/status/glasswall-sre/sre-logging/CI?style=flat-square">
 <img align="center" src="https://img.shields.io/codecov/c/github/glasswall-sre/sre-logging?style=flat-square">
 
 </div>
 
-If you have a Python
-program that's gonna be anywhere near production, or is in any way
-'mission critical', it should use this package so that it can plug into
-our DataDog log analysis very easily.
+
 
 ## Installation
 ```bash
