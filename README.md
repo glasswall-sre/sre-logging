@@ -14,6 +14,7 @@ our DataDog log analysis very easily.
 <img align="center" src="https://img.shields.io/github/workflow/status/glasswall-sre/sre-logging/CI">
 <img align="center" src="https://img.shields.io/codecov/c/github/glasswall-sre/sre-logging">
 <img align="center" src="https://sonarcloud.io/api/project_badges/measure?project=sre-loggin&metric=alert_status">
+<img align="center" src="https://img.shields.io/pypi/v/srelogging?style=flat-square">
 
 </div>
 
