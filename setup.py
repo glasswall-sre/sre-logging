@@ -15,11 +15,20 @@ def repo_file_as_string(file_path: str) -> str:
 
 setup(install_requires=["pyyaml"],
       name="srelogging",
-      version="#{TAG_NAME}#",
+      version="#{VERSION}#",
       description="Common logging functions for SRE python scripts.",
       long_description=repo_file_as_string("README.md"),
       long_description_content_type="text/markdown",
-      author="Sam Gibson",
+      author="FiggleWatts",
+      classifiers=[
+        "Programming Language :: Python :: 3.7",
+        "License :: OSI Approved :: MIT License",
+        "Development Status :: 4 - Beta",
+        "Intended Audience :: Developers",
+        "Operating System :: OS Independent",
+        "Topic :: Software Development :: Logging"
+      ],
+      keywords="sre logging",
       author_email="sgibson@glasswallsolutions.com",
       py_modules=['srelogging'],
-      python_requires=">=3.7")
+      python_requires=">=3.6")
