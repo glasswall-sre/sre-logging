@@ -26,7 +26,7 @@ setup(install_requires=["pyyaml"],
         "Development Status :: 4 - Beta",
         "Intended Audience :: Developers",
         "Operating System :: OS Independent",
-        "Topic :: Software Development :: Logging"
+        "Topic :: System :: Logging"
       ],
       keywords="sre logging",
       author_email="sgibson@glasswallsolutions.com",
