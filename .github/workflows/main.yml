@@ -34,4 +34,4 @@ jobs:
         pipenv run pytest tests/ --cov srelogging --cov-report term-missing
         pipenv run codecov
       env:
-        CODECOV_TOKEN: ${{ secrets.CodecovToken }}
+        CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
