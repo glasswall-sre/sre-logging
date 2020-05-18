@@ -9,6 +9,7 @@ pylint = "*"
 pytest = "*"
 pytest-cov = "*"
 pytest-azurepipelines = "*"
+codecov = "*"
 
 [packages]
 pyyaml = "*"
