@@ -19,7 +19,7 @@ setup(install_requires=["pyyaml"],
       description="Common logging functions for SRE python scripts.",
       long_description=repo_file_as_string("README.md"),
       long_description_content_type="text/markdown",
-      author="FiggleWatts",
+      author="Figglewatts",
       classifiers=[
         "Programming Language :: Python :: 3.7",
         "License :: OSI Approved :: MIT License",
