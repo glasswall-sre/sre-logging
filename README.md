@@ -11,9 +11,9 @@ program that's gonna be anywhere near production, or is in any way
 'mission critical', it should use this package so that it can plug into
 our DataDog log analysis very easily.
 
-<img align="center" src="https://img.shields.io/github/workflow/status/glasswall-sre/sre-logging/CI?style=flat-square">
-<img align="center" src="https://img.shields.io/codecov/c/github/glasswall-sre/sre-logging?style=flat-square">
-<img align="center" src="https://sonarcloud.io/api/project_badges/measure?project=sre-loggin&metric=alert_status?style=flat-square">
+<img align="center" src="https://img.shields.io/github/workflow/status/glasswall-sre/sre-logging/CI">
+<img align="center" src="https://img.shields.io/codecov/c/github/glasswall-sre/sre-logging">
+<img align="center" src="https://sonarcloud.io/api/project_badges/measure?project=sre-loggin&metric=alert_status">
 
 </div>
 
