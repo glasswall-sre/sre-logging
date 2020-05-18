@@ -1,7 +1,6 @@
 # SRE Logging
 
-![codecov.io](https://codecov.io/github/glasswall-sre/sre-logging/coverage.svg?branch=master)
-(https://codecov.io/github/glasswall-sre/sre-logging?branch=master)
+![codecov.io](https://codecov.io/github/glasswall-sre/sre-logging?branch=master)
 
 Common logging setup package for SRE python programs. If you have a Python
 program that's gonna be anywhere near production, or is in any way
