@@ -32,6 +32,11 @@ jobs:
     - name: Test with pytest and coverage with codecov
       run: |
         pipenv run pytest tests/ --cov srelogging --cov-report term-missing
-        pipenv run codecov -X gcov
-      env:
-        CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
+    - name: Codecov
+      uses: codecov/codecov-action@v1.0.7
+      with:
+        name: sre-logging-upload
+        token: ${{ secrets.CODECOV_TOKEN }}       
+        file: /home/runner/work/sre-logging/sre-logging/coverage.xml               
+        fail_ci_if_error: true
+     
